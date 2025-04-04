@@ -33,7 +33,7 @@
     };
 
     flake-ci = {
-      url = "github:adam-gaia/flake-ci.nix";
+      url = "github:adam-gaia/flake-ci";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
