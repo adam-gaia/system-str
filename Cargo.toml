@@ -1,0 +1,16 @@
+[package]
+name = "system-str"
+description = "TODO"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/adam-gaia/system-str"
+repository = "https://github.com/adam-gaia/system-str"
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+
+[lints.clippy]
+all = "deny"
+cargo = "deny"
+pedantic = "warn"
